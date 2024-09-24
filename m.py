@@ -1,4 +1,4 @@
-#script by @Vip_Ddos_07
+#script by @rudra_0846
 
 import telebot
 import subprocess
