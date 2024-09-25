@@ -1,4 +1,4 @@
-#script by @venomXcrazy
+#script by @RUDRA_0846
 
 import telebot
 import subprocess
@@ -8,10 +8,9 @@ import os
 from keep_alive import keep_alive
 keep_alive()
 # insert your Telegram bot token here
-bot = telebot.TeleBot('7259034553:AAHYWdbEpMxeJAkv_HH1QYOChdMLMvot13E')
-
+bot = telebot.TeleBot('7408037215:AAFwR7NYK-Yeg-SCBfJEjEvjuhgW27jq9b4')
 # Admin user IDs
-admin_id = ["5588464519"]
+admin_id = ["1843825636"]
 
 # File to store allowed user IDs
 USER_FILE = "users.txt"
@@ -131,7 +130,7 @@ def add_user(message):
             try:
                 duration = int(duration_str[:-4])  # Extract the numeric part of the duration
                 if duration <= 0:
-                    raise ValueError
+          aise ValueError
                 time_unit = duration_str[-4:].lower()  # Extract the time unit (e.g., 'hour', 'day', 'week', 'month')
                 if time_unit not in ('hour', 'hours', 'day', 'days', 'week', 'weeks', 'month', 'months'):
                     raise ValueError
@@ -153,7 +152,7 @@ def add_user(message):
         else:
             response = "Please specify a user ID and the duration (e.g., 1hour, 2days, 3weeks, 4months) to add 😘."
     else:
-        response = "You have not purchased yet purchase now from:- @venomXcrazy."
+        response = "You have not purchased yet purchase now from:- @RUDRA_0846."
 
     bot.reply_to(message, response)
 
